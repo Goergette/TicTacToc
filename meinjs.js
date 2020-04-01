@@ -9,7 +9,7 @@ $('table tr td').click(function(){
         }
         else{
             $(this).append("O");
-            $(this).css('color', '#85a4f');
+            $(this).css('color', '#F25116');
         }
         move++;
         if (spielen() != -1 && spielen() != ""){

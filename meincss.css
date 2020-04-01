@@ -5,19 +5,26 @@
 }
 body {
     
-    background-color: #97aabd;
+  background-image: url("media/VideoCapture.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
 }
 
 table {
+
     border-collapse: collapse;
     border-spacing: 0;
-    margin: 10px auto;
-    background-color: #272727;
+    
+    margin: 130px auto; 
+    background-color: #27272721;
+   
   }
   
   td {
-    width: 90px;
-    height: 90px;
+    width: 130px;
+    height: 130px;
     border: 2px solid black;
     text-align: center;
     font-size: 35px;
